@@ -25,7 +25,7 @@ public class Problem8_7 {
 	
 				public static double distance(
 					double x1, double x2, double y1, double y2, double z1, double z2) {
-					return Math.sqrt(Math.pow(y2 - y1, 2) + Math.pow(y2 - y1, 2) + Math.pow(x2 - x1, 2));
+					return Math.sqrt(Math.pow(y2 - y1, 2) + Math.pow(z2 - z1, 2) + Math.pow(x2 - x1, 2)); // JA
 				}
 	}
 

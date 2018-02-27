@@ -26,8 +26,8 @@ public class Problem7_03 {
 	public static void totalOccurence(int[] list) {
 		for (int j = 1; j <= 100; j++) {
 			int total = 0;
-			for (int k = 0; k < list.length - 1; j++) {
-				if (list[k] == 1)
+			for (int k = j + 1; k < list.length - 1; j++) { // JA
+				if (list[k] == list[j])
 					total += 1;
 			}
 			if (total != 0)
